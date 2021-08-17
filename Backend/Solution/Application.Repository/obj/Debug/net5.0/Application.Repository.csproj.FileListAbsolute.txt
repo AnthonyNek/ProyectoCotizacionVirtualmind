@@ -1,0 +1,15 @@
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\bin\Debug\net5.0\Application.Repository.deps.json
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\bin\Debug\net5.0\Application.Repository.runtimeconfig.json
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\bin\Debug\net5.0\Application.Repository.runtimeconfig.dev.json
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\bin\Debug\net5.0\Application.Repository.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\bin\Debug\net5.0\ref\Application.Repository.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\bin\Debug\net5.0\Application.Repository.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.csproj.AssemblyReference.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.AssemblyInfoInputs.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.AssemblyInfo.cs
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.csproj.CoreCompileInputs.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\ref\Application.Repository.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repository.genruntimeconfig.cache

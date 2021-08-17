@@ -1,0 +1,11 @@
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\bin\Debug\net5.0\Application.Dto.deps.json
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\bin\Debug\net5.0\Application.Dto.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\bin\Debug\net5.0\ref\Application.Dto.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\bin\Debug\net5.0\Application.Dto.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.AssemblyInfoInputs.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.AssemblyInfo.cs
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.csproj.CoreCompileInputs.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\ref\Application.Dto.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.pdb

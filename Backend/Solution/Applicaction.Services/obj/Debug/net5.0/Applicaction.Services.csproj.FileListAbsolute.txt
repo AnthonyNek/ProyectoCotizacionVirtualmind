@@ -1,0 +1,17 @@
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\Applicaction.Services.deps.json
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\Applicaction.Services.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\ref\Applicaction.Services.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\Applicaction.Services.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\Application.Dto.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\Application.Repositories.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\Application.Dto.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\bin\Debug\net5.0\Application.Repositories.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.csproj.AssemblyReference.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.AssemblyInfoInputs.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.AssemblyInfo.cs
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.csproj.CoreCompileInputs.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.csproj.CopyComplete
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\ref\Applicaction.Services.dll
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Applicaction.Services\obj\Debug\net5.0\Applicaction.Services.pdb
