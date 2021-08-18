@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.WebApi", "Appli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Repositories", "Application.Repository\Application.Repositories.csproj", "{B6D534B1-D33D-4FD9-9140-E90DDA83545C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applicaction.Services", "Applicaction.Services\Applicaction.Services.csproj", "{F25D38B9-30CB-4926-B8BC-BE8D665312E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Applicaction.Services", "Applicaction.Services\Applicaction.Services.csproj", "{F25D38B9-30CB-4926-B8BC-BE8D665312E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Dto", "Application.Dto\Application.Dto.csproj", "{251B694E-39B6-46C7-80D0-179229466E12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Dto", "Application.Dto\Application.Dto.csproj", "{251B694E-39B6-46C7-80D0-179229466E12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application.Tests", "Application.Tests", "{5DE2C29B-A4E5-415E-B918-38D74CED9ABA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.WebApi.TestUnit", "Application.WebApi.TestUnit\Application.WebApi.TestUnit.csproj", "{F96331BE-0D06-4869-9FCB-4ADB730CE28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.WebApi.Mock", "Application.WebApi.Mock\Application.WebApi.Mock.csproj", "{5AC20F44-86B6-4BB7-8616-7B4C9C01ED57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +43,17 @@ Global
 		{F96331BE-0D06-4869-9FCB-4ADB730CE28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F96331BE-0D06-4869-9FCB-4ADB730CE28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F96331BE-0D06-4869-9FCB-4ADB730CE28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC20F44-86B6-4BB7-8616-7B4C9C01ED57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC20F44-86B6-4BB7-8616-7B4C9C01ED57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC20F44-86B6-4BB7-8616-7B4C9C01ED57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC20F44-86B6-4BB7-8616-7B4C9C01ED57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F96331BE-0D06-4869-9FCB-4ADB730CE28C} = {5DE2C29B-A4E5-415E-B918-38D74CED9ABA}
+		{5AC20F44-86B6-4BB7-8616-7B4C9C01ED57} = {5DE2C29B-A4E5-415E-B918-38D74CED9ABA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86633932-EF2E-4188-9DB5-7840BE2E5A55}

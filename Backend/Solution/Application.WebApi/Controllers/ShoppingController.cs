@@ -1,6 +1,7 @@
 ﻿using Applicaction.Services;
 using Application.Dto;
 using Application.WebApi.Logging.Helpers;
+using Application.WebApi.Util;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -30,7 +31,7 @@ namespace Application.WebApi.Controllers
         {
             try
             {
-                if (dtoShopping.Amount <= 200 && dtoShopping.IdentificatorOfMoney == "Dolar")
+                if (dtoShopping.Amount <= 200 && dtoShopping.IdentificatorOfMoney == CurrencyType.Dolar)
                 {
                     var resultado = await ResultSave(quoteApi, dtoShopping);
                     if (resultado > 0)
@@ -42,7 +43,7 @@ namespace Application.WebApi.Controllers
                         return BadRequest(new { resultado = "1111", Descripcion = "Error al procesar la trasanccion" });
                     }
                 }
-                else if (dtoShopping.Amount <= 300 && dtoShopping.IdentificatorOfMoney == "Real")
+                else if (dtoShopping.Amount <= 300 && dtoShopping.IdentificatorOfMoney == CurrencyType.Real)
                 {
                     var resultado = await ResultSave(quoteApi, dtoShopping);
                     if (resultado > 0)

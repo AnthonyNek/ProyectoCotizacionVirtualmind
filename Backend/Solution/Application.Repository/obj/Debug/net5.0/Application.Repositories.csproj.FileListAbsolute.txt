@@ -12,3 +12,4 @@ E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Deb
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\ref\Application.Repositories.dll
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repositories.pdb
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repositories.genruntimeconfig.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Repository\obj\Debug\net5.0\Application.Repositories.csproj.AssemblyReference.cache

@@ -1,4 +1,5 @@
 ﻿using Application.WebApi.Logging.Helpers;
+using Application.WebApi.Util;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -29,7 +30,7 @@ namespace Application.WebApi.Controllers
         {
             try
             {
-                if (currencyIdentifier == "Dolar" || currencyIdentifier == "Real")
+                if (currencyIdentifier == CurrencyType.Dolar || currencyIdentifier == CurrencyType.Real)
                 {
                     var result = await quoteApi.GetApiAsync(currencyIdentifier);
                     return Ok(result);

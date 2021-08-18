@@ -9,3 +9,4 @@ E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.dll
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\ref\Application.Dto.dll
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.Dto\obj\Debug\net5.0\Application.Dto.csproj.AssemblyReference.cache
