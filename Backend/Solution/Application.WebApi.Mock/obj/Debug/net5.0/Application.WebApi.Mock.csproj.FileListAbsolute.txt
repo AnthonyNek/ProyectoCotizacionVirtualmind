@@ -1,9 +1,4 @@
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\Debug\net5.0\CoverletSourceRootsMapping
-E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.csproj.AssemblyReference.cache
-E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.GeneratedMSBuildEditorConfig.editorconfig
-E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.AssemblyInfoInputs.cache
-E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.AssemblyInfo.cs
-E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.csproj.CoreCompileInputs.cache
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\Debug\net5.0\testhost.dll
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\Debug\net5.0\Application.WebApi.deps.json
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\Debug\net5.0\Application.WebApi.runtimeconfig.json
@@ -143,6 +138,11 @@ E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\De
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\Debug\net5.0\Applicaction.Services.pdb
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\Debug\net5.0\Application.Dto.pdb
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\bin\Debug\net5.0\Application.Repositories.pdb
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.csproj.AssemblyReference.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.AssemblyInfoInputs.cache
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.AssemblyInfo.cs
+E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.csproj.CoreCompileInputs.cache
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.csproj.CopyComplete
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\Application.WebApi.Mock.dll
 E:\ProyectoCotizacionVirtualmind\Backend\Solution\Application.WebApi.Mock\obj\Debug\net5.0\ref\Application.WebApi.Mock.dll

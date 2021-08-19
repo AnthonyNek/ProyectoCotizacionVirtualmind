@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Application.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("Shopping​")]
     public class ShoppingController : BaseController
     {
         private readonly ILogger<ShoppingController> log;
@@ -36,11 +36,11 @@ namespace Application.WebApi.Controllers
                     var resultado = await ResultSave(quoteApi, dtoShopping);
                     if (resultado > 0)
                     {
-                        return Ok(new { resultado = "0000", Descripcion = "Transaccion Exitosa" });
+                        return Ok(new { resultado = "0000", Descripcion = "Succesfull transaction" });
                     }
                     else
                     {
-                        return BadRequest(new { resultado = "1111", Descripcion = "Error al procesar la trasanccion" });
+                        return BadRequest(new { resultado = "1111", Descripcion = "Error when processing the transaction" });
                     }
                 }
                 else if (dtoShopping.Amount <= 300 && dtoShopping.IdentificatorOfMoney == CurrencyType.Real)
@@ -48,23 +48,23 @@ namespace Application.WebApi.Controllers
                     var resultado = await ResultSave(quoteApi, dtoShopping);
                     if (resultado > 0)
                     {
-                        return Ok(new { resultado = "0000", Descripcion = "Transaccion Exitosa" });
+                        return Ok(new { resultado = "0000", Descripcion = "Succesfull transaction" });
                     }
                     else
                     {
-                        return BadRequest(new { resultado = "1111", Descripcion = "Error al procesar la trasanccion" });
+                        return BadRequest(new { resultado = "1111", Descripcion = "Error when processing the transaction" });
                     }
                 }
                 else
                 {
-                    return BadRequest(new { resultado = "1111", Descripcion = "Error al ingresar el valor o el tipo de moneda" });
+                    return BadRequest(new { resultado = "1111", Descripcion = "Error entering currency value or type" });
                 }
 
             }
             catch (Exception ex)
             {
                 this.log.LogError(ex.Message);
-                return BadRequest(new { resultado = "1111", Descripcion = "Error al procesar la trasanccion " + ex.Message });
+                return BadRequest(new { resultado = "1111", Descripcion = "Error entering currency value or type " + ex.Message });
             }
         }
         private async Task<int> ResultSave(IApiConsumptionDolar quoteApi,DtoShopping dtoShopping)

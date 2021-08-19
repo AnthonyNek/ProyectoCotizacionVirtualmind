@@ -31,18 +31,7 @@ namespace Application.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IUnitOfWork>(option => new UnitOfWork(new BDCompanyContext(new DbContextOptionsBuilder<BDCompanyContext>().UseSqlServer(Configuration.GetConnectionString("DefaultConnectionSqll")).Options)));
-        
-            //services.Scan(
-            //     x =>
-            //     {
-            //         var referencedAssemblies = Assembly.GetEntryAssembly().GetReferencedAssemblies().Select(Assembly.Load).ToList();
-            //         x.FromAssemblies(referencedAssemblies)
-            //           .AddClasses(classes => classes.AssignableTo<ILogHelper>())
-            //           .AsMatchingInterface()
-            //           .WithTransientLifetime();
-            //     }
-            //     );
-
+         
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -55,7 +44,7 @@ namespace Application.WebApi
                     name: myAllowSpecificOrigins,
                     builder =>
                     {
-                        builder.WithOrigins(Configuration.GetValue<string>("urlQuote"))
+                        builder.WithOrigins(Configuration.GetValue<string>("urlQuote"), Configuration.GetValue<string>("APP_URL"))
                             .AllowAnyHeader()
                             .AllowAnyMethod()
                             .AllowCredentials();
