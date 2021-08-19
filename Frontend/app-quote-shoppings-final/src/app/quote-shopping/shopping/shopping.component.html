@@ -1,0 +1,26 @@
+<div class="example-container mat-elevation-z8">
+    <h2>Get Shopping</h2>
+    
+      </div>
+
+      <div id="content">
+        <div id="left">
+           <div id="object1">Real value: {{amountReal}}</div>
+          
+        </div>
+        <div style="float: center;top: 0;left: 0;">
+            
+            <button type="button" class="btn btn-primary" (click)="Buy()">Buy</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary" (click)="ReturnHome()">Return to Home</button>
+        </div>
+        <div class="example-loading-shade"
+         *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+        <div id="right">
+           <div id="object3">Dolar value:{{amountDolar}}</div>
+           <button type="button" class="btn btn-primary" (click)="Refresh()">Update</button>
+        </div>
+        
+      </div>

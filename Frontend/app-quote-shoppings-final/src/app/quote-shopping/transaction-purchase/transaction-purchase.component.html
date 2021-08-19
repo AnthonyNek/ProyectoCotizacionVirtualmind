@@ -1,0 +1,45 @@
+<div class="example-container mat-elevation-z8">
+    <h1>&nbsp;Buy</h1>
+    <div class="example-loading-shade"
+          *ngIf="isLoadingResults">
+      <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="button-row">
+      <a mat-flat-button color="primary" [routerLink]="['/mquoteshopping/quoteShopping/shopping']"><mat-icon>list</mat-icon></a>
+    </div>
+    <mat-card class="example-card">
+      <form [formGroup]="casesForm" (ngSubmit)="onFormSubmit()">
+        <mat-form-field class="example-full-width">
+            <mat-label>User Id</mat-label>
+            <input matInput type="number" placeholder="UserId" formControlName="userid"
+                    [errorStateMatcher]="matcher">
+            <mat-error>
+              <span *ngIf="!casesForm.get('userid')?.valid && casesForm.get('userid')?.touched">Enter user id</span>
+            </mat-error>
+          </mat-form-field>
+     
+        <mat-form-field class="example-full-width">
+          <mat-label>Amount</mat-label>
+          <input matInput type="number" placeholder="Amount" formControlName="amount"
+                  [errorStateMatcher]="matcher">
+          <mat-error>
+            <span *ngIf="!casesForm.get('amount')?.valid && casesForm.get('amount')?.touched">Enter Amount</span>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <mat-label>Identifier Money</mat-label>
+          <input matInput placeholder="Identifier Money" formControlName="identificatorOfMoney"
+                  [errorStateMatcher]="matcher">
+          <mat-error>
+            <span *ngIf="!casesForm.get('identificatorOfMoney')?.valid && casesForm.get('identificatorOfMoney')?.touched">Enter Identifier Money</span>
+          </mat-error>
+        </mat-form-field>
+        
+       
+        <div class="button-row">
+          <button type="submit" [disabled]="!casesForm.valid" mat-flat-button color="primary"><mat-icon>add</mat-icon>Add buy</button>
+        </div>
+      </form>
+    </mat-card>
+  </div>
+
